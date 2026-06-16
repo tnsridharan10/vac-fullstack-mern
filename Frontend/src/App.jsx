@@ -6,6 +6,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Counter from './pages/counter'
 import Home from './pages/Home'
+import Todo from './components/Todo'
 import Service from './pages/Service'
 import { Routes, Route } from 'react-router-dom'
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/parent' element={<Parent />} />
         <Route path='/useState' element={<Counter />} />
         <Route path='/useEffect' element={<Effect/>}/>
+        <Route path='/todo' element={<Todo/>}/>
       </Routes>
 
     </>
